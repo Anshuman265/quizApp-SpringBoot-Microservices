@@ -25,7 +25,7 @@ public class QuestionController {
     public List<Question> getQuestionsByCategory(@PathVariable("cat") String category){
         return questionService.getQuestionsByCategory(category);
     }
-
+    // Service to add new records in the database
     @PostMapping("add")
     public String addQuestion(@RequestBody Question question){
         return questionService.addQuestion(question);
