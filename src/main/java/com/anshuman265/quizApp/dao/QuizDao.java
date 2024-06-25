@@ -1,6 +1,6 @@
 package com.anshuman265.quizApp.dao;
 
-// Data object for the quiz application
+// Data object for quiz application
 public interface QuizDao {
 
 }
